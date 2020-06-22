@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/lblCreateAccount"
+                android:layout_width="wrap_content"
+                android:inputType="text"
+                android:paddingTop="15dp"
+                android:autoText="true"
+                android:layout_gravity="center_horizontal"
+                android:foregroundGravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:hint="@Create a free Account"
+                android:textColor="#ff0c0b0b"
+                android:textSize="16dp"
+                android:paddingBottom="25dp"
+                android:textStyle="bold" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layofdsaut_password1"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/editText3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="14dp"
+                    android:paddingLeft="5dp"
+                    android:hint="@Country of Residence"
+                    android:gravity="left|top"
+                    android:inputType="textMultiLine" >
+                </EditText>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layofdsaut_password2"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/editText3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="14dp"
+                    android:paddingLeft="5dp"
+                    android:gravity="left|top"
+                    android:inputType="textMultiLine" >
+                </EditText>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layofdsaut_password3"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/editText3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="14dp"
+                    android:paddingLeft="5dp"
+                    android:hint="@Sex"
+                    android:gravity="left|top"
+                    android:inputType="textMultiLine" >
+                </EditText>
+            </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layofdsaut_password4"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/editText3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="14dp"
+                    android:paddingLeft="5dp"
+                    android:hint="@Sex"
+                    android:gravity="left|top"
+                    android:inputType="textMultiLine" >
+                </EditText>
+            </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layofdsaut_password5"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/editText3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="14dp"
+                    android:paddingLeft="5dp"
+                    android:hint="@Sex"
+                    android:gravity="left|top"
+                    android:inputType="textMultiLine" >
+                </EditText>
+            </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layofdsaut_password6"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/editText3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="14dp"
+                    android:paddingLeft="5dp"
+                    android:hint="@Sex"
+                    android:gravity="left|top"
+                    android:inputType="textMultiLine" >
+                </EditText>
+            </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layofdsaut_password7"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/editText3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="14dp"
+                    android:paddingLeft="5dp"
+                    android:hint="@Sex"
+                    android:gravity="left|top"
+                    android:inputType="textMultiLine" >
+                </EditText>
+            </android.support.design.widget.TextInputLayout>
+
+            
+                        <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layofdsaut_password8"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/editText3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="14dp"
+                    android:paddingLeft="5dp"
+                    android:hint="@Sex"
+                    android:gravity="left|top"
+                    android:inputType="textMultiLine" >
+                </EditText>
+            </android.support.design.widget.TextInputLayout>
+
+            
+                        <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layofdsaut_password9"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/editText3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="14dp"
+                    android:paddingLeft="5dp"
+                    android:hint="@Sex"
+                    android:gravity="left|top"
+                    android:inputType="textMultiLine" >
+                </EditText>
+            </android.support.design.widget.TextInputLayout>
+
+            
+                        <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layofdsaut_password10"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/editText3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="14dp"
+                    android:paddingLeft="5dp"
+                    android:hint="@Sex"
+                    android:gravity="left|top"
+                    android:inputType="textMultiLine" >
+                </EditText>
+            </android.support.design.widget.TextInputLayout>
+
+            
+                        <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layofdsaut_password11"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/editText3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="14dp"
+                    android:paddingLeft="5dp"
+                    android:hint="@Sex"
+                    android:gravity="left|top"
+                    android:inputType="textMultiLine" >
+                </EditText>
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>
